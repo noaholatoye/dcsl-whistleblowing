@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DCSL Whistleblowing - Summit Tip</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,700i,800,800i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="bg-light container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/dcsl.svg" alt="DCSL Logo">
+      </a>
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link " href="index.html">HOME</a>
+            <a class="nav-item nav-link active" href="submit-tip.html">SUBMIT TIP</a>
+            <a class="nav-item nav-link" href="tip-feedback.html">TIP FEEDBACK</a>
+            <a class="nav-item nav-link sub-btn" href="#sub-form">SUBSCRIBE</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- End Navbar -->
+
+    <!-- Header Banner  -->
+    <div class="banner-2">
+      <div class="banner-content container">
+        <h1>Submit Tip - Whistleblowing</h1>
+      </div>
+      <img src="images/banner/pattern-lighter.png" alt="Blue Pattern" class="pattern">
+    </div>
+    <!-- End Header Banner  -->
+
+    <!-- Submission Form -->
+    <form action="#" class="needs-validation container tip-form mt-5" id="form-100" novalidate>
+        <div class="submission-form">
+            <!-- Section 1 - Concerned Organisation: -->
+            <fieldset>
+                <legend>Concerned Organisation:</legend>
+                <div class="form-row">
+                    <div class="col-md-10 mb-3">
+                        <label for="validationCustom01">Type of Organisation Concerned</label>
+                        <select class="custom-select" id="validationCustom01" required>
+                        <option selected disabled value="">Choose...</option>
+                        <option>Ministry</option>
+                        <option>Department</option>
+                        <option>Agency</option>
+                        </select>
+                        <div class="invalid-feedback">
+                        Please select a valid state.
+                        </div>
+                    </div>
+                    <div class="col-md-10 mb-3">
+                        <label for="validationCustom02">Organisation Name</label>
+                        <input type="text" class="form-control" id="validationCustom02" placeholder="Example Business Limited" required>
+                        <div class="valid-feedback">
+                        Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-10 mb-3">
+                        <label for="validationCustom03">Address</label>
+                        <input type="text" class="form-control" id="validationCustom03" placeholder="497 Evergreen Rd." required>
+                        <div class="valid-feedback">
+                        Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-10 mb-3">
+                        <label for="validationCustom04">Address</label>
+                        <input type="date" class="form-control" id="validationCustom04" required>
+                        <div class="valid-feedback">
+                        Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-10 mb-3">
+                        <label for="validationCustom05">Type of Tip</label>
+                        <select class="custom-select" id="validationCustom05" required>
+                        <option selected disabled value="">Choose...</option>
+                        <optgroup label="Revenues">
+                            <option value="Diversion of revenues">Diversion of revenues</option>
+                            <option value="Violation of TSA guidelines">Violation of TSA guidelines (e.g. multiple revenue accounts)</option>
+                            <option>Underreporting of revenues</option>
+                            <option>Non-remittance or late remittance of revenues</option>
+                            <option>Manipulation of revenue collection receipts</option>
+                            <option>Conversion of funds to personal use</option>
+                            <option>Mismanagement of revenues</option>                            
+                        </optgroup>
+                        <optgroup label="Expenses">
+                            <option>Unapproved expenditures</option>
+                            <option value="Undocumented expenditures">Undocumented expenditures (e.g. no payment vouchers with appropriate signatures)</option>
+                            <option>Non-compliance with efficiency unit expenditure guidelines/circulars</option>
+                            <option>Fraudulent payments</option>
+                            <option>Violation of public procurement procedures</option>
+                            <option>Procurement fraud (kickbacks, over-invoicing etc)</option>
+                            <option>Splitting of contracts</option>
+                        </optgroup>
+                        <optgroup label="Ethics/Others">
+                            <option>Manipulation of data or records</option>
+                            <option>Misstatement of financial information</option>
+                            <option value="Mismanagement or misappropriation of public funds and assets">Mismanagement or misappropriation of public funds and assets (e.g. properties, vehicles etc.)</option>
+                            <option>Collecting / soliciting bribes</option>
+                            <option>Conflict of interest</option>
+                            <option>Fraud</option>
+                            <option>Corruption</option>
+                            <option>Information on stolen public funds</option>
+                            <option>Information on concealed public funds</option>
+                        </optgroup>
+                        </select>
+                        <div class="invalid-feedback">
+                        Please select a valid state.
+                    </div>
+                    <div class="mb-3">
+                        <label for="validationCustom06">Date of Concerned Transaction</label>
+                        <textarea name="text" id="validationCustom06" cols="40" rows="5" placeholder="Type here..." required class="col-md-12"></textarea>
+                        <div class="valid-feedback">
+                        Looks good!
+                        </div>
+                    </div>
+                        <p>Is the Alleged Conduct Ongoing</p>
+                        <div class="form-check form-check-inline" id="validationCustom07"> 
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="yes">
+                            <label class="form-check-label" for="inlineRadio1">Yes</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="no">
+                            <label class="form-check-label" for="inlineRadio2">No</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="unknown">
+                            <label class="form-check-label" for="inlineRadio3">Unknown</label>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+            <!-- End Section 1 - Concerned Organisation -->
+                
+            <!-- Section 1 - Supporting Documents -->
+            <fieldset>
+                <legend>Supporting Documents:</legend>
+                <div class="form-row">
+                    <div class="col-md-10 mb-3">
+                        <label for="validationCustom08">Upload file</label>
+                        <input type="file" class="form-control" id="validationCustom08" required>
+                        <div class="valid-feedback">
+                        Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-10 mb-3">
+                        <label for="validationCustom09">First Name</label>
+                        <input type="text" class="form-control" id="validationCustom09" placeholder="John" required>
+                        <div class="valid-feedback">
+                        Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-10 mb-3">
+                        <label for="validationCustom10">Last Name</label>
+                        <input type="text" class="form-control" id="validationCustom10" placeholder="Doe" required>
+                        <div class="valid-feedback">
+                        Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-10 mb-3">
+                        <label for="validationCustom11">Phone Number</label>
+                        <input type="tel" class="form-control" id="validationCustom11" placeholder="07000000000" required>
+                        <div class="valid-feedback">
+                        Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-10 mb-3">
+                        <label for="validationCustom12">Email</label>
+                        <input type="email" class="form-control" id="validationCustom12" placeholder="example@email.com" required>
+                        <div class="valid-feedback">
+                        Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-10 mb-3">
+                        <label for="validationCustom13">Company</label>
+                        <input type="email" class="form-control" id="validationCustom13" placeholder="Example Business Limited" required>
+                        <div class="valid-feedback">
+                        Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-10 mb-3">
+                        <label for="validationCustom14">Address</label>
+                        <input type="text" class="form-control" id="validationCustom14" placeholder="Example Business Limited" required>
+                        <div class="valid-feedback">
+                        Looks good!
+                        </div>
+                    </div>
+
+                </div>
+            </fieldset>
+        </div>
+
+        <!-- End Section 1 - Supporting Documents -->
+
+        <div class="form-group">
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+            Agree to terms and conditions
+            </label>
+            <div class="invalid-feedback">
+            You must agree before submitting.
+            </div>
+        </div>
+        </div>
+        <button class="btn btn-secondary btn-submission" type="submit">Submit form</button>
+      </form>
+    <!-- End Submission Form -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container" id="sub-form">
+            <!-- Subscribe -->
+            <form class="mb-2 col-md-12">
+                <input type="email" class="form-control col-md-12" id="inputEmail" placeholder="Email">
+              <button type="submit" class="btn btn-secondary mt-3 col-md-12">Subscribe for Update</button>
+            </form>
+            <!-- End Subscribe -->
+            <div class="footer">
+                <div class="container">
+                    <div class="head-office col-md-3">
+                    <span>Head Office:</span>
+                    <p>235 Ikorodu Road, Ilupeju, P.O. Box 965, Marina, Lagos, Nigeria</p>
+                    </div>
+                    <div class="abuja-office col-md-3">
+                    <span>Abuja Office:</span>
+                    <p>The Statement Hotel, Plot 1002, 1st Avenue, Off Shehu Shagari way, Central Business District, Abuja.</p>
+                    </div>
+                    <div class="tel col-md-3">
+                    <span>Tel:</span>
+                    <p>Tel: +2348090381864, <br> +2348090381861</p>
+                    </div>
+                    <div class="tel col-md-3">
+                    <span>Email:</span>
+                    <p>info@dcsl.com.ng</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      <img src="images/banner/pattern.png" alt="Blue Pattern">
+    </footer>
+    <!-- End Footer -->
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
